@@ -1,0 +1,49 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--horizontal-space);
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: -15px;
+}
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+.screen-header__icons span {
+  margin-left: 25px;
+}
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.screen-header__setting {
+  position: relative;
+  width: 15px;
+  height: 15px;
+}
+.fa-solid.fa-gear.fa-lg {
+  position: relative;
+}
+
+.screen-header__dot {
+  position: absolute;
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 15px;
+  left: 20px;
+  top: -15px;
+}
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-gear:hover {
+  animation: rotateCog 1s linear infinite;
+}
