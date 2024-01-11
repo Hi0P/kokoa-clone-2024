@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat with 쨈민이</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span> No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full fa-xl"></i>
+        <i class="fa-solid fa-bolt-lightning"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"> <i class="fa-solid fa-chevron-left fa-3x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">쨈민이</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fa-solid fa-magnifying-glass fa-2xl"></i></span>
+        <span><i class="fa-solid fa-bars fa-2xl"></i></span>
+      </div>
+    </header>
+
+    <main class="main-sreen main-chat">
+      <div class="chat__timestamp">Tuesday, June 13th, 2023</div>
+      <div class="message-row">
+        <img src="https://avatars3.githubusercontent.com/u/3612017" />
+        <div class="message-row__content">
+          <span class="message__author">쨈민이</span>
+          <div class="message__info">
+            <span class="message__bubble">쨈민 젤다해?</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="https://avatars3.githubusercontent.com/u/3612017" />
+        <div class="message-row__content">
+          <span class="message__author">쨈민이</span>
+          <div class="message__info">
+            <span class="message__bubble">완전 젤다 중독이네</span>
+            <span class="message__time">21:28</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">아니거든~</span>
+            <span class="message__time">21:35</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">쨈아 젤다가 부르는 소리가 들려</span>
+            <span class="message__time">21:36</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="https://avatars3.githubusercontent.com/u/3612017" />
+        <div class="message-row__content">
+          <span class="message__author">쨈민이</span>
+          <div class="message__info">
+            <span class="message__bubble">쨈아 링크--*링크--*</span>
+            <span class="message__time">21:37</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="write a message..." />
+        <i class="fa-regular fa-face-smile fa-lg"></i>
+        <button><i class="fa-solid fa-arrow-up"></i></button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>Your Screen is too big!</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/784a16820a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
